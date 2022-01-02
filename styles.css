@@ -20,13 +20,7 @@ div {
     padding: 0px;
 }
 
-.ergo {
-    margin-left: 50px;
-}
-
-
 .button1{
-    
     padding-right: auto;
     padding-left: auto;
     padding-top: atuo;
@@ -41,14 +35,11 @@ vertical-align: middle;
   cursor: pointer;
   font-size: 40px;
   margin-top: -10px;
+  color: black;
  
 }
 
 .button1:hover {
     background-color: orange; /* Green */
     color: white;
-  }
-
-  .button1::target-text {
-      text-align: center;
   }
