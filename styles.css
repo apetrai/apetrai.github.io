@@ -47,57 +47,9 @@ vertical-align: middle;
 
 
 
-.button3 {
-    padding-right: auto;
-    padding-left: auto;
-    padding-top: auto;
-    background-color: rgba(255, 166, 0, 0.671);
-    border-radius: 20px;
-    font-family: Roboto;
-    border-color: rgba(255, 166, 0, 0.671);
-    border-style: hidden;
-    display: table-cell;
-vertical-align: middle;
-    margin-top: 0px;
-  cursor: pointer;
-  font-size: 40px;
-  margin-top: 10px;
-  color: rgb(255, 255, 255);
-  margin-left: 700px;
-  margin-right: auto;
-}
-
-.button2 {
-    padding-right: auto;
-    padding-left: auto;
-    padding-top: auto;
-    background-color: rgba(255, 166, 0, 0.671);
-    border-radius: 20px;
-    font-family: Roboto;
-    border-color: rgba(255, 166, 0, 0.671);
-    border-style: hidden;
-    display: table-cell;
-vertical-align: middle;
-    margin-left: -10px;
-  cursor: pointer;
-  font-size: 40px;
-  margin-top: 10px;
-  color: rgb(255, 255, 255);
-margin-right: auto;
-
 }
 
 .button1:hover {
-    background-color: orange; 
-    color: white;
-  }
-
-  .button2:hover {
-    background-color: orange; 
-    color: white;
-  }
-
-  .button3:hover {
     background-color: orange; 
     color: white;
   }
