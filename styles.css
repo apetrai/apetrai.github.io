@@ -1,4 +1,7 @@
-h1 {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+.h1t {
     font-family: Roboto;
     font-size: 50px;
     color: orange;
@@ -6,7 +9,7 @@ h1 {
 }
 
 .style-fonts {
-    font-family: Roboto, Monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     margin-top: -20px;
     text-align: center;
@@ -14,10 +17,36 @@ h1 {
 }
 
 .divclass {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 0px;
+
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+}
+
+footer {
+  position: absolute;
+  bottom: 1%;
+  font-family: 'Roboto Mono', 'monospace';
+  color: white;
+}
+
+.about {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 60px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Mono', monospace;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
 html {
     background-color: rgb(0, 0, 0, 0.89);
@@ -25,27 +54,13 @@ html {
 
 
 .button1{
-    padding-right: auto;
-    padding-left: auto;
-    padding-top: auto;
     background-color: rgba(255, 166, 0, 0.671);
     border-radius: 20px;
     font-family: Roboto;
-    border-color: rgba(255, 166, 0, 0.671);
-    border-style: hidden;
-    display: table-cell;
-vertical-align: middle;
-    margin-top: 0px;
+  border: none;
   cursor: pointer;
-  font-size: 40px;
-  margin-top: 10px;
+  font-size: 50px;
   color: rgb(255, 255, 255);
-  margin-left: auto;
-  margin-right: auto;
- 
-}
-
-
 
 }
 
@@ -53,6 +68,8 @@ vertical-align: middle;
     background-color: orange; 
     color: white;
   }
+
+/*projects.html*/
 
   .exp {
     margin-left: 90px;
