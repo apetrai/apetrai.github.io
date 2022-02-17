@@ -9,7 +9,6 @@
 
 .slide-right {
   animation: 3s slide-right;
-  animation-delay: 1s;
 }
 
 .slide-rightp {
@@ -19,7 +18,6 @@
 
 .slide-rightp {
   animation: 3s slide-rightp;
-  animation-delay: 1s;
 }
 
 
@@ -29,7 +27,7 @@
   }
 
   to {
-    margin-left: 10%;
+    margin-left: 13%;
   }
 }
 
@@ -63,7 +61,7 @@ ul li::before {
 .buttonabout {
    position: fixed;
   margin-top: 200px;
-  margin-left: 50%;
+  margin-left: 45%;
   height: 50px;
   font-family: Roboto;
   font-size: 30px;
@@ -71,7 +69,8 @@ ul li::before {
   border: none;
   background-color: black;
   color:white;
-  animation: mymove 10s infinite;
+  border-radius: 50px;
+  animation: mymove 10s alternate-reverse infinite;
 }
 
 @keyframes mymove {
@@ -79,8 +78,14 @@ ul li::before {
   to {background-color: rgb(4, 29, 75);}
 }
 
-.buttonabout:hover {
-  animation: mymove 5s infinite;
+@keyframes borderr {
+  from {border-radius:0px;}
+  to {border-radius:100px;}
 }
+
+.buttonabout:hover {
+  animation: borderr 2s alternate-reverse infinite;
+}
+
 
 
