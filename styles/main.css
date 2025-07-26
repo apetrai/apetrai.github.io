@@ -1,0 +1,11 @@
+body {
+    background-color: #293241;
+    color: white
+}
+
+.about h2{
+   font-size: 1.5rem;
+}
+.about {
+    margin-left: 170px; /* Adjust this value as needed */
+}
