@@ -23,13 +23,37 @@ html {
     font-family: "IBM Plex Sans", sans-serif;
 }
 
-.mainsection {
+/* Home Page -----------------*/
+
+/* .mainsection {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
+} */
+
 
 #greeting {
-align-items: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 40px;
 }
+
+#aboutme {
+    max-width: 500px;
+}
+
+#aboutme h1 {
+    margin: 0 0 20px;
+    font-size: 3rem;
+}
+
+#profilepic {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+/* ----------------------------- */
